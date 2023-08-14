@@ -59,7 +59,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: hello-react_app_dev
+  database: hello-react_app_test
   username: postgres
   password: 1234
 
@@ -85,6 +85,6 @@ test:
 #
 production:
   <<: *default
-  database: hello-react_app_test
+  database: hello-react_app_prod
   username: postgres
   password: 1234
