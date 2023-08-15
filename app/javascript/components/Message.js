@@ -1,7 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { getMessages } from '../redux/messagesSlice';
+
 
 export const Message = () => {
+  const dispatch = useDispatch();
+  const messages = useSelector((state) => state.messages.messages);
+
+  useEffect(() => {
+    dispatch(getMessages());
+  }, [dispatch]);
+
+  console.log(messages)
   return (
-    <h2>this is a message !!!! ????</h2>
-  )
-}
+    <div>
+      <h2>Messages:</h2>
+      {messages.greeting}
+    </div>
+  );
+};
