@@ -1,15 +1,24 @@
-// Entry point for the build script in your package.json
-import "@hotwired/turbo-rails"
-import "./controllers"
+import "@hotwired/turbo-rails";
+import "./controllers";
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Route, Routes } from 'react-router-dom';
 
-function App() {
-  return (<h1>Hello World!</h1>);
-}
+import { Message } from "./components/Message";
+import { BrowserRouter as Router } from "react-router-dom";
 
-ReactDOM.render(
-  <App/>,
-  document.getElementById('root'),
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(
+  <React.StrictMode>
+
+  <Router>
+
+  <Routes>
+        <Route path="/" element={<Message />} />
+    </Routes>
+  </Router>
+      
+  </React.StrictMode>,
 );
