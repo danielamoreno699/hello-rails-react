@@ -140,7 +140,7 @@ If you like this project give us a star ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Special thanks to our team and the Ruby community for their support and contributions.
+Special thanks to our team and the Ruby community for their support and contributions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
