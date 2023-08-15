@@ -122,6 +122,13 @@ rspec spec/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+## 🔭 Future Features <a name="features"></a>
+
+- **Integral Testing** The application will be tested with RSpec and Jest.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions to the User Interface are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue on the project repository.
@@ -140,7 +147,7 @@ If you like this project give us a star ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Special thanks to our team and the Ruby community for their support and contributions.
+Special thanks to our team and the Ruby community for their support and contributions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
